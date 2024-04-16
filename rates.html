@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./js/slick_slider/slick-theme.css">
+  <link rel="stylesheet" href="./js/slick_slider/slick.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Kapstudio</title>
+</head>
+
+<body>
+
+  <div class="pop_answer js_pop_answer">
+    <div class="pop_answer_tittle">Форма успешно отправлена!</div>
+    <p>Мы свяжемся с вами в течение 1 рабочего дня.</p>
+  </div>
+
+  <div class="container_pop_up js_pop_up">
+    <div class="container_scroll">
+      <div class="calculation_box">
+        <div class="calculation_box_close js_poup_close"></div>
+        <h3>Заказать расчет</h3>
+        <span>Учтём ваши пожелания, подберём подходящее решение для вашего бизнеса и рассчитаем стоимость услуг</span>
+        <form action="#">
+          <input name="popup_name" type="text" placeholder="Имя" class="js_popup_name">
+          <input name="popup_call" type="text" placeholder="Телефон" class="js_popup_call">
+          <input name="popup_email" type="text" placeholder="Email" class="js_popup_email">
+          <textarea name="popup_textarea" type="text" placeholder='Комментарий'></textarea>
+          <div class="js_popup_error popup_error"></div>
+          <div class="pop_up_box">
+            <div class="pop_up_box_button">
+              <input type="submit" name="submit" value="Отправить" class="js_popup_submit">
+              <i></i>
+            </div>
+            <p>Нажимая на кнопку «отправить»
+              вы соглашаетесь с политикой конфиденциальности</p>
+          </div>
+        </form>
+        <div class="glass_pop_up"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container_hidden">
+    <div class="burger_menu js_burger_menu">
+      <div class="container_content">
+        <div class="burger_menu_close js_burger_menu_close"></div>
+        <div class="footer_anim">
+          <div class="footer_anim_item">
+            <i>01</i>
+            <a href="#">Лицензии</a>
+          </div>
+          <div class="footer_anim_item">
+            <i>02</i>
+            <a href="#">Кейсы</a>
+          </div>
+          <div class="footer_anim_item">
+            <i>03</i>
+            <a href="#">Контакты</a>
+          </div>
+          <div class="footer_anim_item">
+            <i>04</i>
+            <a href="#">О компании</a>
+          </div>
+        </div>
+        <div class="footer_services">
+          <div class="footer_services_tittle">Услуги</div>
+          <div class="footer_services_flex">
+            <div class="footer_services_flex_box">
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Длинное название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+            </div>
+            <div class="footer_services_flex_box">
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Длинное название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+            </div>
+            <div class="footer_services_flex_box">
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Длинное название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="container">
+        <div class="container_content">
+          <a href="#">
+            <i><img src="./img/icon/logo_header.svg" alt="icon"></i>
+          </a>
+          <div class="header_box">
+            <div class="header_box_gamburg js_header_box_gamburg">
+              <span class="line_one"></span>
+              <span class="line_too"></span>
+              <span class="line_three"></span>
+              </divclass>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <section class="main js_main">
+      <div class="main_glass rates_glass_one js_parallax_one">
+        <img src="./img/img/bg_main/1.png" alt="img">
+      </div>
+      <div class="container">
+        <div class="container_content">
+          <h1 class="center">Тарифы</h1>
+          <div class="main_button button_standart js_button rates">
+            <p>Оставить заявку</p><i></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="main_foo main_foo_min">
+      <div class="container_content">
+        <h3>Лицензии 1С-Битрикс</h3>
+        <div class="rates_box">
+          <div class="rates_box_item_wrap">
+            <div class="rates_box_item">
+              <div class="rates_box_item_tittle">
+                <span>Старт</span>
+                <p>быстрый старт для создания адаптивного сайта под любую тематику бизнеса</p>
+              </div>
+              <div class="rates_box_item_price">
+                <div class="rates_box_item_price_modul">
+                  <span>13</span>
+                  <p>модулей</p>
+                </div>
+                <div class="rates_box_item_price_num">5 400 ₽</div>
+                <div class="rates_box_item_price_button js_rates_box_item_price_button">
+                  <p>Купить</p>
+                  <i></i>
+                </div>
+              </div>
+              <div class="rates_box_item_discription">
+                <p>Профессионально управляйте контентом вашего сайта: создавайте страницы и разделы, публикуйте новости,
+                  статьи, каталоги и распределите права доступа к сайту.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rates_box_item_wrap">
+            <div class="rates_box_item">
+              <div class="rates_box_item_tittle">
+                <span>Стандарт</span>
+                <p>Популярная лицензия продукта, включающая все необходимые инструменты для управления интерактивным
+                  веб-проектом.</p>
+              </div>
+              <div class="rates_box_item_price">
+                <div class="rates_box_item_price_modul">
+                  <span>21</span>
+                  <p>модуль</p>
+                </div>
+                <div class="rates_box_item_price_num">15 900 ₽</div>
+                <div class="rates_box_item_price_button js_rates_box_item_price_button">
+                  <p>Купить</p>
+                  <i></i>
+                </div>
+              </div>
+              <div class="rates_box_item_discription">
+                <p>Запускайте свой проект за короткие сроки. Для этого используйте мастер установки, простое управление,
+                  базовый функционал CMS и готовые решения.</p>
+                <p>Создавайте интерактивные сайты: общайтесь с посетителями в форумах и блогах, проводите опросы,
+                  организуйте сообщества, фотогалереи и отправляйте рассылки подписчикам.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rates_box_item_wrap">
+            <div class="rates_box_item">
+              <div class="rates_box_item_tittle">
+                <span>Малый бизнес</span>
+                <p> Продукт для небольших и средних предприятий. Запускайте свой проект за короткие сроки.</p>
+              </div>
+              <div class="rates_box_item_price">
+                <div class="rates_box_item_price_modul">
+                  <span>31</span>
+                  <p>модуль</p>
+                </div>
+                <div class="rates_box_item_price_num">35 900 ₽</div>
+                <div class="rates_box_item_price_button js_rates_box_item_price_button">
+                  <p>Купить</p>
+                  <i></i>
+                </div>
+              </div>
+              <div class="rates_box_item_discription">
+                <p>«Малый бизнес» позволяет делать интеграцию с торговыми площадками, настраивать двусторонний обмен
+                  данными вашего магазина с 1С в режиме реального времени и быстро загружать десятки тысяч наименований
+                  продукции через мастер и генератор SKU (артикулов). Используйте мастер установки, простое управление,
+                  базовый функционал CMS и готовые решения.</p>
+                <p>Базовый интернет-магазин. Откройте свой интернет-магазин с минимальными затратами. Разместите любое
+                  количество товаров в каталоге, управляйте скидками и доставкой. Интегрируйте магазин с «1С»
+                  и «Яндекс.Маркет».</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="rates_box_item_wrap">
+            <div class="rates_box_item black">
+              <div class="rates_box_item_tittle">
+                <span>Бизнес</span>
+                <p>Редакция, которая решает задачи, связанные с организацией коллективной работы над сайтом и
+                  внутренними управленческими процессами</p>
+              </div>
+              <div class="rates_box_item_price">
+                <div class="rates_box_item_price_modul">
+                  <span>50 </span>
+                  <p>модулей</p>
+                </div>
+                <div class="rates_box_item_price_num">72 900 ₽</div>
+                <div class="rates_box_item_price_button js_rates_box_item_price_button">
+                  <p>Купить</p>
+                  <i></i>
+                </div>
+              </div>
+              <div class="rates_box_item_discription">
+                <p>Для быстрого запуска современного сайта используйте мастер установки, простое управление, базовый
+                  функционал CMS и готовые решения. Возможности редакции позволят вам использовать несколько типов цен,
+                  брошенные корзины, отчеты магазина, аффилиатские программы, список покупателей, подписка на новинки.
+                  Автоматизируйте бизнес-процессы, ведите документооборот и анализируйте посещаемость страниц.
+                  Используйте все, чтобы вывести свой интернет-магазин на новый уровень продаж.</p>
+                <p>Редакция «Бизнес» предназначена для разработки бизнес-портала, корпоративного сайта крупной
+                  организации или предприятия, информационно-справочной системы, интернет-магазина и других масштабных
+                  веб-проектов.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="main_three rates js_main_three">
+      <div class="container_content">
+        <h3>Какие преимущества получит мой бизнес при выборе вас? </h3>
+        <p>Мы являемся командой опытных профессионалов, специализирующихся на автоматизации бизнеса и разработке сайтов.
+          Мы предлагаем индивидуальный подход к каждому проекту, стремимся к качеству и результатам. Наша команда готова
+          обеспечить полную поддержку на всех этапах работы, а также предоставить техническую поддержку после завершения
+          проекта.</p>
+      </div>
+      <div class="rates_three_glass"></div>
+    </section>
+
+    <section class="main_foo main_foo_min">
+      <div class="container_content">
+        <h3>Битрикс 24</h3>
+        <div class="rates_subtittle">«Битрикс24» — это корпоративный портал с набором готовых решений для бизнеса.
+          Облачная версия подходит малому и среднему бизнесу, когда не требуется кастомизация. Настроить систему можно
+          без IT-специалистов.</div>
+        <h3>Облачная версия</h3>
+        <div class="design_foo">
+          <div class="design_foo_tittle design_foo_tittle_big">Несколько преимуществ «Коробочной версии»:</div>
+          <div class="design_foo_box">
+            <span><b>01</b>Легкая самостоятельная настройка базовых функций.</span>
+            <span><b>02</b>Большой выбор тарифных планов</span>
+            <span><b>03</b>Предустановленные права доступов и разрешений. </span>
+            <span><b>04</b>Автоматическое создание резервных копий.</span>
+            <span><b>05</b>Легкий переход на коробочную версию</span>
+          </div>
+        </div>
+        <div class="rates_sale">
+          <div class="rates_sale_left">
+            <span>Цена по акции</span>
+            <p>для тех, кто уже покупал тариф</p>
+          </div>
+          <div class="rates_sale_box">
+            <div class="rates_sale_right js_rates_sale_right">
+              <p>На 1 месяц</p>
+              <i></i>
+            </div>
+            <div class="rates_sale_box_content js_rates_sale_box_content">
+              <span class="one">На 1 месяц</span>
+              <span class="too">На год <b>(-20%)</b></span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="rates_box">
+          <div class="rates_box_item_wrap">
+            <div class="rates_box_item">
+              <div class="rates_box_item_tittle">
+                <span>Базовый</span>
+                <p>Для совместной работы всей компании или рабочих групп</p>
+              </div>
+              <div class="rates_box_item_price">
+                <div class="rates_box_item_price_modul">
+                  <span>5</span>
+                  <p>Пользователей</p>
+                </div>
+                <div class="rates_box_item_price_num js_rates_box_item_price_num">2 490 ₽/мес.</div>
+                <div class="rates_box_item_price_numSale js_rates_box_item_price_numSale">1 990 ₽/мес.</div>
+                <div class="rates_box_item_price_button js_rates_box_item_price_button">
+                  <p>Купить</p>
+                  <i></i>
+                </div>
+                <div class="rates_box_item_price_vol"><b>24</b> гигабайта</div>
+              </div>
+              <div class="rates_box_item_tags">
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Совместная работа</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="easy"></i>
+                  <span>Задачи и проекты</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>CRM</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Онлайн-подпись</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Диск</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Контакт-центр</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Сайты</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Интернет-магазин </span>
+                </div>
+              </div>
+              <div class="rates_box_item_tag_item">
+                <i class="hard"></i>
+                <span>Поддержка</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="rates_box_item_wrap">
+            <div class="rates_box_item">
+              <div class="rates_box_item_tittle">
+                <span>Стандарт</span>
+                <p>Для совместной работы всей компании или рабочих групп</p>
+              </div>
+              <div class="rates_box_item_price">
+                <div class="rates_box_item_price_modul">
+                  <span>50</span>
+                  <p>Пользователей</p>
+                </div>
+                <div class="rates_box_item_price_num js_rates_box_item_price_num">6 990 ₽/мес.</div>
+                <div class="rates_box_item_price_numSale js_rates_box_item_price_numSale">5 590 ₽/мес.</div>
+                <div class="rates_box_item_price_button js_rates_box_item_price_button">
+                  <p>Купить</p>
+                  <i></i>
+                </div>
+                <div class="rates_box_item_price_vol"><b>100</b> гигабайт</div>
+              </div>
+              <div class="rates_box_item_tags">
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Совместная работа</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Задачи и проекты</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="easy"></i>
+                  <span>CRM</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Онлайн-подпись</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Диск</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Контакт-центр</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Сайты</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Интернет-магазин </span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Маркетинг</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Документы Онлайн </span>
+                </div>
+              </div>
+              <div class="rates_box_item_tag_item">
+                <i class="hard"></i>
+                <span>Администрирование</span>
+              </div>
+              <div class="rates_box_item_tag_item">
+                <i class="hard"></i>
+                <span>Поддержка</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="rates_box_item_wrap">
+            <div class="rates_box_item">
+              <div class="rates_box_item_tittle">
+                <span>Базовый</span>
+                <p> Для совместной работы всей компании или рабочих групп</p>
+              </div>
+              <div class="rates_box_item_price">
+                <div class="rates_box_item_price_modul">
+                  <span>100</span>
+                  <p>Пользователей</p>
+                </div>
+                <div class="rates_box_item_price_num js_rates_box_item_price_num">13 990 ₽/мес.</div>
+                <div class="rates_box_item_price_numSale js_rates_box_item_price_numSale">11 190 ₽/мес</div>
+                <div class="rates_box_item_price_button js_rates_box_item_price_button">
+                  <p>Купить</p>
+                  <i></i>
+                </div>
+                <div class="rates_box_item_price_vol"><b>1024</b> гигабайта</div>
+              </div>
+              <div class="rates_box_item_tags">
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Совместная работа</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Задачи и проекты</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>CRM</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Онлайн-подпись</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Диск</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Контакт-центр</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Сайты</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Интернет-магазин </span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Маркетинг</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Документы Онлайн </span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="middle"></i>
+                  <span>Сквозная аналитика</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Автоматизация</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>HR</span>
+                </div>
+              </div>
+              <div class="rates_box_item_tag_item">
+                <i class="hard"></i>
+                <span>Администрирование</span>
+              </div>
+              <div class="rates_box_item_tag_item">
+                <i class="hard"></i>
+                <span>Поддержка</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="rates_box_item_wrap">
+            <div class="rates_box_item black">
+              <div class="rates_box_item_tittle">
+                <span>Энтерпрайз </span>
+                <p>Для цифровизации крупного и среднего бизнеса на максимальных скоростях</p>
+              </div>
+              <div class="rates_box_item_price">
+                <div class="rates_box_item_price_box js_rates_box_item_price_box">
+                  <div class="rates_box_item_price_modul button js_rates_box_item_price_modul">
+                    <span>250 </span>
+                    <p>Пользователей</p>
+                  </div>
+                  <div class="rates_sale_box_content js_rates_box_item_price_content">
+                    <span data-price="33 990 ₽/мес." data-vol="3">250 пользователeй</span>
+                    <span data-price="59 990 ₽/мес." data-vol="5">500 пользователeй</span>
+                    <span data-price="99 990 ₽/мес." data-vol="10">1 000 пользователeй</span>
+                    <span data-price="199 990 ₽/мес." data-vol="20">2 000 пользователeй</span>
+                    <span data-price="299 990 ₽/мес." data-vol="30">3 000 пользователeй</span>
+                    <span data-price="399 990 ₽/мес." data-vol="40">4 000 пользователeй</span>
+                    <span data-price="499 990 ₽/мес." data-vol="50">5 000 пользователeй</span>
+                    <span data-price="599 990 ₽/мес." data-vol="60">6 000 пользователeй</span>
+                    <span data-price="699 990 ₽/мес." data-vol="70">7 000 пользователeй</span>
+                    <span data-price="799 990 ₽/мес." data-vol="80">8 000 пользователeй</span>
+                    <span data-price="899 990 ₽/мес." data-vol="90">9 000 пользователeй</span>
+                    <span data-price="999 990 ₽/мес." data-vol="100">10 000 пользователeй</span>
+                  </div>
+                </div>
+                <div class="rates_box_item_price_num js_rates_box_item_price_num">33 990 ₽/мес.</div>
+                <div class="rates_box_item_price_numSale js_rates_box_item_price_numSale">27 190 ₽/мес.</div>
+                <div class="rates_box_item_price_button js_rates_box_item_price_button">
+                  <p>Купить</p>
+                  <i></i>
+                </div>
+                <div class="rates_box_item_price_vol js_rates_box_item_price_vol"><b>3</b> терабайта</div>
+              </div>
+              <div class="rates_box_item_tags">
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Совместная работа</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Задачи и проекты</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>CRM</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Онлайн-подпись</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Диск</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Контакт-центр</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Сайты</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Интернет-магазин </span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Маркетинг</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Документы Онлайн </span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Сквозная аналитика</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Автоматизация</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>HR</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Филиалы</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Энтерпрайз-кластер</span>
+                </div>
+                <div class="rates_box_item_tag_item">
+                  <i class="hard"></i>
+                  <span>Энтерпрайз-пакет</span>
+                </div>
+              </div>
+              <div class="rates_box_item_tag_item">
+                <i class="hard"></i>
+                <span>Администрирование</span>
+              </div>
+              <div class="rates_box_item_tag_item">
+                <i class="hard"></i>
+                <span>Поддержка</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <h3>Коробочная версия </h3>
+        <div class="design_foo">
+          <div class="design_foo_tittle design_foo_tittle_big">Несколько преимуществ «Коробочной версии»:</div>
+          <div class="design_foo_box">
+            <span><b>01</b>Доступна кастомизация. </span>
+            <span><b>02</b>Гибкость в настройке прав доступа.</span>
+            <span><b>03</b>Безопасность.</span>
+            <span><b>04</b>Панель управления. </span>
+            <span><b>05</b>Доступно создание нескольких порталов</span>
+          </div>
+        </div>
+        <div class="rates_box">
+          <div class="rates_box_item_wrap">
+            <div class="rates_box_item">
+              <div class="rates_box_item_tittle">
+                <span>Интренет-магазин + CRM</span>
+              </div>
+              <div class="rates_box_item_price">
+                <div class="rates_box_item_price_modul">
+                  <span>12</span>
+                  <p>Пользователей</p>
+                </div>
+                <div class="rates_box_item_price_num">109 000 ₽</div>
+                <div class="rates_box_item_price_button js_rates_box_item_price_button">
+                  <p>Купить</p>
+                  <i></i>
+                </div>
+              </div>
+              <div class="rates_box_item_tag_item">
+                <i class="dot"></i>
+                <span>Экстранет</span>
+              </div>
+              <div class="rates_box_item_tag_item">
+                <i class="dot"></i>
+                <span>eCommerce-платформа</span>
+              </div>
+            </div>
+          </div>
+          <div class="rates_box_item_wrap">
+            <div class="rates_box_item">
+              <div class="rates_box_item_tittle">
+                <span>Корпоративный<br>
+                  портал</span>
+              </div>
+              <div class="rates_box_item_price">
+                <div class="rates_box_item_price_box js_rates_box_item_price_boxVers">
+                  <div class="rates_box_item_price_modul button js_rates_box_item_price_modulVers">
+                    <span>50</span>
+                    <p>Пользователей</p>
+                  </div>
+                  <div class="rates_sale_box_content js_rates_sale_box_contentVers">
+                    <span data-price="159 000 ₽">50 пользователeй</span>
+                    <span data-price="229 000 ₽">100 пользователeй</span>
+                    <span data-price="349 000 ₽">250 пользователeй</span>
+                    <span data-price="599 000 ₽">500 пользователeй</span>
+                  </div>
+                </div>
+                <div class="rates_box_item_price_num js_rates_box_item_price_numVers">159 000 ₽</div>
+                <div class="rates_box_item_price_button js_rates_box_item_price_button">
+                  <p>Купить</p>
+                  <i></i>
+                </div>
+              </div>
+              <div class="rates_box_item_tag_item">
+                <i class="dot"></i>
+                <span>Экстранет</span>
+              </div>
+              <div class="rates_box_item_tag_item">
+                <i class="dot"></i>
+                <span>eCommerce-платформа</span>
+              </div>
+              <div class="rates_box_item_tag_item">
+                <i class="dot"></i>
+                <span>Документы Онлайн</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="main_three js_main_three">
+      <div class="container_content">
+        <h2>Золотой партнер
+          битрикс </h2>
+        <div class="main_three_tittle">У нас вы можете купить лицензии</div>
+        <div class="main_three_button_box">
+          <div class="main_three_button_box_sub">
+            <p>Топ 3 компании среди партнеров битрикс</p>
+          </div>
+          <div class="main_three_button button_standart js_button">
+            <p>Получить расчет</p><i></i>
+          </div>
+        </div>
+        <div class="main_five_glass">
+        </div>
+      </div>
+    </section>
+
+    <section class="main_foo">
+      <div class="container_content">
+        <h3>Кейсы</h3>
+        <div class="main_foo_cases development_cases">
+          <div class="main_foo_cases_box">
+            <div class="main_foo_cases_box_item">
+              <a href="#" class="main_foo_cases_box_item_img">
+                <div class="main_foo_cases_box_item_img_tittle">Название<span>кейса</span></div>
+                <img class="main_foo_cases_box_item_img_pic" src="./img/img/cases/1.png" alt="img">
+                <div class="main_foo_cases_box_item_img_category">Категория кейса</div>
+              </a>
+              <div class="main_foo_cases_box_item_tittle">Название кейса</div>
+              <p>Описание кейса - может быть
+                в несколько строчек</p>
+            </div>
+          </div>
+          <div class="main_foo_cases_box">
+            <div class="main_foo_cases_box_item">
+              <a href="#" class="main_foo_cases_box_item_img">
+                <div class="main_foo_cases_box_item_img_tittle">Название<span>кейса</span></div>
+                <img class="main_foo_cases_box_item_img_pic" src="./img/img/cases/4.png" alt="img">
+                <div class="main_foo_cases_box_item_img_category">Категория кейса</div>
+              </a>
+              <div class="main_foo_cases_box_item_tittle">Название кейса</div>
+              <p>Описание кейса - может быть
+                в несколько строчек</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <footer>
+      <div class="container_content">
+        <h3>Связаться с нами</h3>
+        <form action="#">
+          <div class="footer_form">
+            <input type="text" name="name" placeholder="Имя" class="footer_form_input js_footer_name">
+            <input type="text" name="email" placeholder="Адрес электронной почты"
+              class="footer_form_input js_footer_email">
+            <input type="text" name="tell" placeholder="Номер телефона" class="footer_form_input js_footer_call">
+            <div class="footer_error js_footer_error"></div>
+            <div class="footer_form_button">
+              <input type="submit" name="button" value="Отправить"
+                class="button_standart button_submit js_footer_submit">
+            </div>
+          </div>
+        </form>
+        <div class="footer_anim">
+          <div class="footer_anim_item">
+            <i>01</i>
+            <a href="#">Лицензии</a>
+          </div>
+          <div class="footer_anim_item">
+            <i>02</i>
+            <a href="#">Кейсы</a>
+          </div>
+          <div class="footer_anim_item">
+            <i>03</i>
+            <a href="#">Контакты</a>
+          </div>
+          <div class="footer_anim_item">
+            <i>04</i>
+            <a href="#">О компании</a>
+          </div>
+        </div>
+        <div class="footer_services">
+          <div class="footer_services_tittle">Услуги</div>
+          <div class="footer_services_flex">
+            <div class="footer_services_flex_box">
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Длинное название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+            </div>
+            <div class="footer_services_flex_box">
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Длинное название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+            </div>
+            <div class="footer_services_flex_box">
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Длинное название услуги</a>
+              <a href="#">Название услуги</a>
+              <a href="#">Название услуги</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer_copyright">
+          <a href="#">Политика конфиденциальности</a>
+          <p>© 2024 ООО "Капстудио"</p>
+          <a href="#">Версия для слабовидящих</a>
+        </div>
+        <div class="footer_bottom">
+          <img src="./img/img/footer/1.png" alt="icon">
+          <img src="./img/img/footer/2.png" alt="icon">
+          <img src="./img/img/footer/3.png" alt="icon">
+          <img src="./img/img/footer/4.png" alt="icon">
+          <img src="./img/img/footer/5.png" alt="icon">
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/slick_slider/slick.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/init.js"></script>
+
+</body>
+
+</html>
